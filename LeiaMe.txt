@@ -1,0 +1,17 @@
+============
+== Tutorial 
+== Author: Eduardo Pires
+=="Tutorial ASP.NET MVC 5 + DDD + EF + AutoMapper + IoC + Dicas e Truques"
+==
+
+Blog
+http://www.eduardopires.net.br/2014/10/tutorial-asp-net-mvc-5-ddd-ef-automapper-ioc-dicas-e-truques/
+
+YouTube
+https://www.youtube.com/watch?v=i9Il79a2uBU
+
+
+
+
+Parei no video 1:32:57 -> Quando começou a criar o AutoMapper
+Parei no video 1:52:22 -> Construindo a Classe IServiceBase.cs
