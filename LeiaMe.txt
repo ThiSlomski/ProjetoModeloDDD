@@ -15,3 +15,38 @@ https://www.youtube.com/watch?v=i9Il79a2uBU
 
 Parei no video 1:32:57 -> Quando começou a criar o AutoMapper
 Parei no video 1:52:22 -> Construindo a Classe IServiceBase.cs
+
+
+
+=======================
+== Dominio é agnostico
+=======================
+	Dominio é Agnostico
+	Não possui dependencias.
+	Não posso adicionar nada que prenda meu dominio a um projeto, ele é desacoplado.
+	Levo pra onde eu quiser e implemento a volta dele pra onde eu quiser
+
+
+	Obs: Primeiro eu faço generico depois automatizo: Por isso crio repositorios genéricos
+	O Serviço ele orquestra as coisas, assim como o Controller orquestra as coias.
+
+
+	-------- As entidades Ficam no Dominio.
+	Entidades
+		Possuem Propriedades: que são estados.
+		Possuem Métodos: que são comportamentos.
+
+		As Entidades definem o negócio(Regras de negócio: é ela quem sabe as regras que se referem ao negócio.
+
+
+
+=======================
+== Serviço
+=======================
+	O Serviço sabq como chamar essas regras da Entidade
+
+
+
+******para ver:
+		Expecification: Onde ficam as regras de validação
+		Ioc: Para não referenciar a infra na Presentation

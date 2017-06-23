@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDD.Domain.Interfaces.Services
+namespace ProjetoModeloDDD.Application
 {
-    public interface IServiceBase<TEntity> where TEntity : class
+    public interface IAppServiceBase<TEntity> where TEntity : class
     {
+
+
         void Add(TEntity obj);
 
         TEntity GetById(int id);
@@ -18,6 +20,5 @@ namespace ProjetoModeloDDD.Domain.Interfaces.Services
 
 
     }
-
 
 }
